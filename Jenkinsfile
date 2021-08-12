@@ -1,4 +1,5 @@
 pipeline
+{
 agent none
 stages
 {
@@ -16,4 +17,5 @@ stages
 	 }
    
   }
+}
 }
