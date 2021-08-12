@@ -6,7 +6,10 @@ stages
   stage('build')
   {
      agent any
-
+	 options
+	 {
+	    skipDefaultCheckout()
+	 }
 	 
 	 steps
 	 {
