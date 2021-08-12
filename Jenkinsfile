@@ -1,14 +1,15 @@
 pipeline
+{
 agent none
 stages
 {
   stage('build')
   {
      agent any
-	 options
+	/* options
 	 {
 	    skipDefaultCheckout()
-	 }
+	 }*\
 	 
 	 steps
 	 {
@@ -16,4 +17,5 @@ stages
 	 }
    
   }
+}
 }
