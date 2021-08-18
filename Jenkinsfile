@@ -12,7 +12,7 @@ pipeline{
         }
         stage('Build Dev'){
             when{
-                branch 'Dev'
+                branch 'dev'
             }
             steps{
                 echo 'Building Slave'
