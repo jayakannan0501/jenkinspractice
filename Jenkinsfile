@@ -10,7 +10,7 @@ pipeline{
             }
             
         }
-        stage('Build Dxev'){
+        stage('Build Dev'){
             when{
                 branch 'Dev'
             }
